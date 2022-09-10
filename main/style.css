@@ -43,3 +43,116 @@ p{
 ul {
     list-style-type: none;
 }
+
+.main-container, .thank-you {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 0.65rem;
+    max-width: 400px;
+}
+
+.main-container img {
+    background-color: hsl(213, 20%, 22%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+
+.main-container h1 {
+    color: #fff;
+    margin: 2rem 0 1rem;
+}
+
+.main-container p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+
+
+.main-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.main-container ul li button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    color: #fff;
+    padding-top: 0.2rem;
+    border-radius: 50%;
+    background-color: hsl(213, 20%, 22%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.main-container ul li button:hover {
+    background-color: hsl(25, 97%, 53%) ;
+}
+
+.main-container ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+.btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    padding: 0.5rem 0 0.4rem;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thank-you img {
+    display: block;
+    margin: 0 auto 2rem;
+
+}
+
+.thank-you .select {
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    padding: 0.2rem 0.5rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.thank-you h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.thank-you p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 2rem;
+}
+
+
+
+.hidden {
+    display: none;
+}
