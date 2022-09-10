@@ -20,3 +20,9 @@ rateAgain.addEventListener("click", () => {
 })
 
 
+
+buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+        choose.innerText = btn.innerText;
+    })
+})
