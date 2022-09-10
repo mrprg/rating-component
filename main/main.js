@@ -5,7 +5,18 @@ const rateAgain = document.getElementById("rate-again");
 const buttons = document.querySelectorAll(".btn");
 const choose = document.getElementById("choose");
 
+// add eventlistener to submit
+
 submit.addEventListener("click", () => {
     thankYou.classList.remove("hidden");
     mainContainer.style.display = "none"
+});
+
+// add eventlistener to rateAgain
+
+rateAgain.addEventListener("click", () => {
+    thankYou.classList.add("hidden");
+    mainContainer.style.display = "block";
 })
+
+
